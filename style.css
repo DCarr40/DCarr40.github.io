@@ -11,3 +11,16 @@
     position: relative;
     
 }
+
+portfolio-wrapper--flex{
+    margin-top: 3rem;
+    margin-right: 30rem;
+    width: 70vw;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+portfolio-wrapper--flex > .portfolio_card--flex {
+    margin: 1rem;
+}
