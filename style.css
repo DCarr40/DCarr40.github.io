@@ -1,0 +1,13 @@
+.background-container{
+    height:100vh;
+    background-image:linear-gradient(
+        to bottom,
+        rgba(2, 209, 255, 0.3),
+        rgba(2, 209, 255, 0.6)),
+        url(picturesforcoding/jonatan-pie-VlH2eHyE_50-unsplash.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    
+}
