@@ -4,7 +4,7 @@
         to bottom,
         rgba(2, 209, 255, 0.3),
         rgba(2, 209, 255, 0.6)),
-        url(picturesforcoding/jonatan-pie-VlH2eHyE_50-unsplash.jpg);
+        url(picturesforcoding/luke-chesser-pJadQetzTkI-unsplash.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: top;
@@ -12,15 +12,30 @@
     
 }
 
-portfolio-wrapper--flex{
-    margin-top: 3rem;
-    margin-right: 30rem;
-    width: 70vw;
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
+.portfolio_cards{
+
+    margin: 1rem;
+    min-block-size: 2.5in;
+    
+    
 }
 
-portfolio-wrapper--flex > .portfolio_card--flex {
-    margin: 1rem;
-}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  portfolio_wrapper{
+    height:100vh;
+    background-image:linear-gradient(
+        to bottom,
+        rgba(2, 209, 255, 0.3),
+        rgba(2, 209, 255, 0.6)),
+        url(picturesforcoding/luke-chesser-pJadQetzTkI-unsplash.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+  }
